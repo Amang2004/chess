@@ -7,7 +7,22 @@ body {
 h1 {
   margin: 20px 0;
 }
-
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+.nav-list li {
+  display: inline;
+  margin: 0 10px;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.nav-list a:hover {
+  text-decoration: underline;
+}
 .chess-board {
   width: 480px;
   height: 480px;
