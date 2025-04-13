@@ -20,9 +20,9 @@ h1 {
   color: #333;
   font-weight: bold;
 }
-/* .nav-list a:hover {
-  text-decoration: underline; */
-
+.nav-list a:hover {
+  text-decoration: underline;
+}
 .chess-board {
   width: 480px;
   height: 480px;
