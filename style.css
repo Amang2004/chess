@@ -54,3 +54,31 @@ h1 {
 .selected {
   outline: 3px solid red;
 }
+
+.piece {
+  font-size: 48px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.piece:hover {
+  transform: scale(1.1);
+}
+.piece.selected {
+  outline: 3px solid red;
+}
+.piece.moved {
+  opacity: 0.5;
+}
+.piece.captured {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.piece.captured:hover {
+  cursor: not-allowed;
+}
+.piece.moved:hover {
+  cursor: not-allowed;
+}
+.piece.moved:hover {
+  cursor: not-allowed;
+}
